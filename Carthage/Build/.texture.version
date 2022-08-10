@@ -1,0 +1,17 @@
+{
+  "commitish" : "16aca2caa9283e425e4525075f65f93e774e6f1a",
+  "iOS" : [
+    {
+      "hash" : "00a03704aaec617d94c35e610096867e8860aa973da4e72599c4fefcf6facca4",
+      "name" : "AsyncDisplayKit",
+      "container" : "AsyncDisplayKit.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "2084e022e01ff323c94512a00d562eecc336e838723adc3788930a9ada68e20a",
+      "name" : "AsyncDisplayKit",
+      "container" : "AsyncDisplayKit.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}
