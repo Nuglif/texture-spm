@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/libwebp.framework/Info.plist</key>
-		<data>
-		78pWhPXrDQi1jz1+fHXgts1CtSk=
-		</data>
-		<key>Frameworks/libwebp.framework/_CodeSignature/CodeResources</key>
-		<data>
-		vnz4y772wSR27XQr+ekLw7Nr5mY=
-		</data>
-		<key>Frameworks/libwebp.framework/libwebp</key>
-		<data>
-		IiAfWUiqNeJejpYoiYehtlg1yjI=
-		</data>
 		<key>Headers/NSData+ImageDetectors.h</key>
 		<data>
 		jzB8GwPHOa/bI3FgiiGMFmyTdWs=
@@ -111,39 +99,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/libwebp.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			78pWhPXrDQi1jz1+fHXgts1CtSk=
-			</data>
-			<key>hash2</key>
-			<data>
-			XRbO9GtNrsyS5xOF+HA39T5BW3Supq0d3jCKEcY0EvY=
-			</data>
-		</dict>
-		<key>Frameworks/libwebp.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vnz4y772wSR27XQr+ekLw7Nr5mY=
-			</data>
-			<key>hash2</key>
-			<data>
-			oO+u7Y/kGT+uG48e05r99edoPdmtdDsnyf35/POSOUc=
-			</data>
-		</dict>
-		<key>Frameworks/libwebp.framework/libwebp</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IiAfWUiqNeJejpYoiYehtlg1yjI=
-			</data>
-			<key>hash2</key>
-			<data>
-			8PGO3NjT9NsY/kDmtORCaQdLSkOTXCX6VEWbZ/z+CW4=
-			</data>
-		</dict>
 		<key>Headers/NSData+ImageDetectors.h</key>
 		<dict>
 			<key>hash</key>
