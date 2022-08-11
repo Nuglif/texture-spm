@@ -2,7 +2,6 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-import Foundation
 
 let package = Package(
     name: "Texture",
@@ -19,13 +18,17 @@ let package = Package(
             targets: ["PINCache"]),
         .library(
             name: "PINOperation",
-            targets: ["PINOperation"])
+            targets: ["PINOperation"]),
+        .library(
+            name: "libwebp",
+            targets: ["libwebp"])
     ],
     targets: [
         .binaryTarget(name: "AsyncDisplayKit", path: "Carthage/Build/AsyncDisplayKit.xcframework"),
         .binaryTarget(name: "PINRemoteImage", path: "Carthage/Build/PINRemoteImage.xcframework"),
         .binaryTarget(name: "PINCache", path: "Carthage/Build/PINCache.xcframework"),
-        .binaryTarget(name: "PINOperation", path: "Carthage/Build/PINOperation.xcframework")
+        .binaryTarget(name: "PINOperation", path: "Carthage/Build/PINOperation.xcframework"),
+        .binaryTarget(name: "libwebp", path: "Carthage/Build/libwebp.xcframework")
     ]
 )
 
