@@ -2,13 +2,13 @@
   "commitish" : "1.2.3",
   "iOS" : [
     {
-      "hash" : "2fabfb9f74d946e9e6817f6ea2e5fca429ac569150d7ff9b9215e0fe03baa7d7",
+      "hash" : "affb3c7696c40988c53794700ff33834c3ed96f82bf357709b11e45b434cc64b",
       "name" : "libwebp",
       "container" : "libwebp.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "7fe8b9b6d0d96ffb1b357e50669bec72173911e36f5f2fa768244a122f0535ee",
+      "hash" : "eed26dd9c9b6bb62b35711b73d84f74c8846dc2842f7ede78305ab7fcf634ef0",
       "name" : "libwebp",
       "container" : "libwebp.xcframework",
       "identifier" : "ios-arm64_armv7"
