@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <PINRemoteImage/PINRemoteImageManager.h>
+#import "PINRemoteImageManager.h"
 
 extern NSErrorDomain _Nonnull const PINURLErrorDomain;
 

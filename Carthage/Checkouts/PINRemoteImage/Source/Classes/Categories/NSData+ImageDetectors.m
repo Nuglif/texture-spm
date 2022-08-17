@@ -9,8 +9,7 @@
 #import "NSData+ImageDetectors.h"
 
 #if PIN_WEBP
-
-#import "libwebp/demux.h"
+#import "webp/demux.h"
 #endif
 
 @implementation NSData (PINImageDetectors)

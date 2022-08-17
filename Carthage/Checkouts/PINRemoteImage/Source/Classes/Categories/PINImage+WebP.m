@@ -10,7 +10,7 @@
 
 #if PIN_WEBP
 
-#import "libwebp/decode.h"
+#import "webp/decode.h"
 
 @implementation PINImage (PINWebP)
 
