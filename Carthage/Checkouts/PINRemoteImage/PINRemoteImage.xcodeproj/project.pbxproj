@@ -1255,7 +1255,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = Carthage/Build/iOS;
@@ -1290,6 +1290,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1306,6 +1307,7 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/Mac",
 					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/webp",
+					"$(PROJECT_DIR)/Carthage/Build/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"PIN_WEBP=1",
@@ -1330,6 +1332,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1346,6 +1349,7 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/Mac",
 					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/webp",
+					"$(PROJECT_DIR)/Carthage/Build/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"PIN_WEBP=1",
