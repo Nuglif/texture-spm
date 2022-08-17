@@ -2,13 +2,13 @@
   "commitish" : "95ce6f945a56b47455542bf2befea8da47fcbe00",
   "iOS" : [
     {
-      "hash" : "c13e034e6c16a1d06a72e45be9f110e3ac9111592cb01e966a5a412fcec15267",
+      "hash" : "ac5291c5f22ba3fd987e9396b4156c4ba41b43cd600730abd4dce4940eb2deef",
       "name" : "PINRemoteImage",
       "container" : "PINRemoteImage.xcframework",
       "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "hash" : "0428d84a50bee89a88f70608ceabf45bcb5c27c2fa91fad5c6380a04e7874f96",
+      "hash" : "a9139da1774ef9c786cda8b78cbca3149270978e2ae4839c9744d6e2be52a793",
       "name" : "PINRemoteImage",
       "container" : "PINRemoteImage.xcframework",
       "identifier" : "ios-arm64"

@@ -2,13 +2,13 @@
   "commitish" : "3.0.3",
   "iOS" : [
     {
-      "hash" : "834bf1dc335a8b03c78fe9d333e1c8ec134e043bcbebfe1af4db2125afa20d77",
+      "hash" : "3789bf3839747dacb409c72cf1630d7ed7bdb7d4e71dfc44eef5057afda489ba",
       "name" : "PINCache",
       "container" : "PINCache.xcframework",
       "identifier" : "ios-arm64_i386_x86_64-simulator"
     },
     {
-      "hash" : "5b6701e44373085e4261d7694cc54647ce692ea656d23c16719ffae4eacde30a",
+      "hash" : "bf81c359bff11725800a59cc36a4b9f01aea41556df32125b98752b25645e4f9",
       "name" : "PINCache",
       "container" : "PINCache.xcframework",
       "identifier" : "ios-arm64_armv7"

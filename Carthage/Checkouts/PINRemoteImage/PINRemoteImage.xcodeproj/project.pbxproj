@@ -1203,7 +1203,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = Carthage/Build/iOS;
+				FRAMEWORK_SEARCH_PATHS = "Carthage/Build/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1218,7 +1218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp/**";
+				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/Xcode/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1268,7 +1268,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = Carthage/Build/iOS;
+				FRAMEWORK_SEARCH_PATHS = "Carthage/Build/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -1278,7 +1278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp/**";
+				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/Xcode/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "";
@@ -1306,21 +1306,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/webp",
+					"$(PROJECT_DIR)/Carthage/Build/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"PIN_WEBP=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/Xcode/**";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1347,21 +1339,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/libwebp/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
-					"$(PROJECT_DIR)/webp",
+					"$(PROJECT_DIR)/Carthage/Build/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"PIN_WEBP=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/Xcode/**";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
