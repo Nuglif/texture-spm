@@ -12,7 +12,7 @@
 
 #import "NSData+ImageDetectors.h"
 
-#import "webp/demux.h"
+#import "libwebp/demux.h"
 
 @interface PINWebPAnimatedImage ()
 {
