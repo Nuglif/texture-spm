@@ -1305,6 +1305,7 @@
 					"PIN_WEBP=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/libwebp/src/webp/**";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1344,6 +1345,7 @@
 					"PIN_WEBP=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/libwebp/src/webp/**";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
