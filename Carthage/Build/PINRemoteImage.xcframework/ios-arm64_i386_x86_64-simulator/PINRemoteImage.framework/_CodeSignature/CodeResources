@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/PINCache.framework/PINCache</key>
 		<data>
-		daomVWWStnF9m6zW4h0ZukGPBrk=
+		l9WouaFa32Q774aUYZth+2Oo5Q0=
 		</data>
 		<key>Frameworks/PINCache.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/PINOperation.framework/PINOperation</key>
 		<data>
-		5KCFJtCzHoxIdkldEmTpfBEm/eY=
+		ujwQcq3+HUVM85eq3TrWLwpQJpE=
 		</data>
 		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/libwebp.framework/libwebp</key>
 		<data>
-		WSM3Inm5iFeqIpaGAPPMx8QaU5k=
+		sQiV7uQjE/jfbQqt9ogKTDZ7mtU=
 		</data>
 		<key>Headers/NSData+ImageDetectors.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/PINRemoteImageMacros.h</key>
 		<data>
-		wwRqrpnWSiIzoTTUcnLPma0cd4Y=
+		YjddS0soVi9yop+jBKBt3OkeP6k=
 		</data>
 		<key>Headers/PINRemoteImageManager.h</key>
 		<data>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			daomVWWStnF9m6zW4h0ZukGPBrk=
+			l9WouaFa32Q774aUYZth+2Oo5Q0=
 			</data>
 			<key>hash2</key>
 			<data>
-			16xN7zN6FgZAtefARzTnR3XIXX7pnW5baZAvNanMtZI=
+			DrwIuwl6hF/Nf0b8szCiuHptt66rEe82ClWJnsQ8CSA=
 			</data>
 		</dict>
 		<key>Frameworks/PINCache.framework/_CodeSignature/CodeResources</key>
@@ -183,11 +183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5KCFJtCzHoxIdkldEmTpfBEm/eY=
+			ujwQcq3+HUVM85eq3TrWLwpQJpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			g4cfx0ngEa+hl9W7w8aOGnphw4jS1v6luedIqcEL5co=
+			LyegV8cc/SHLSybWHeH9+Si2hAfjBjmtx9OhbNFP2Ss=
 			</data>
 		</dict>
 		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WSM3Inm5iFeqIpaGAPPMx8QaU5k=
+			sQiV7uQjE/jfbQqt9ogKTDZ7mtU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OrJy+5oDFbC5sjUK8wtwq6EKZMgPf2MHV4+hfaTncjU=
+			AHFNckKtPdL3cGK0YMCX+1DUfI914o2t3o62DV9eXnU=
 			</data>
 		</dict>
 		<key>Headers/NSData+ImageDetectors.h</key>
@@ -403,11 +403,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wwRqrpnWSiIzoTTUcnLPma0cd4Y=
+			YjddS0soVi9yop+jBKBt3OkeP6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			BCN84XnnvMOAWUhIeNHw7mQF8sf+8/4zbgmB7OGXCcc=
+			J6rTZusHB28jrMuDvXvcS0Gyj8kwVQPWxnnoSgwBlYc=
 			</data>
 		</dict>
 		<key>Headers/PINRemoteImageManager.h</key>
