@@ -27,7 +27,7 @@
 #endif
 
 #ifndef PIN_WEBP
-    #if __has_include(<libwebp/decode.h>) || __has_include(<libwebp/decode.h>) || __has_include("libwebp/decode.h")
+    #if __has_include(<libwebp/decode.h>) || __has_include("libwebp/decode.h")
     #define PIN_WEBP    1
     #else
     #define PIN_WEBP    0
