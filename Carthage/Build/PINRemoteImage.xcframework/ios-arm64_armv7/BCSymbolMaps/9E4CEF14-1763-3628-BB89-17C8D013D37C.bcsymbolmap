@@ -647,7 +647,8 @@ __OBJC_$_CATEGORY_NSData_$_PINImageDetectors
 /Users/croz/Documents/workspaces/christophe-texture/Carthage/Checkouts/PINRemoteImage/Source/Classes/Categories/NSData+ImageDetectors.m
 Source/Classes/Categories/NSData+ImageDetectors.m
 WebPGetFeatures
-Carthage/Checkouts/libwebp/src/webp/./decode.h
+Library/Caches/org.carthage.CarthageKit/DerivedData/13.4.1_13F100/PINRemoteImage/a28f8df7fd7bb821216c2553b8f6f1fc961cb7f1/Build/Intermediates.noindex/ArchiveIntermediates/PINRemoteImage/BuildProductsPath/Release-iphoneos/libwebp.framework/Headers/decode.h
+/Users/croz
 advancePositionWithCount
 advancePositionWithBytes
 -[PINRemoteImageManagerConfiguration init]
@@ -1214,7 +1215,7 @@ Source/Classes/AnimatedImages/PINWebPAnimatedImage.m
 releaseData
 __50-[PINWebPAnimatedImage initWithAnimatedImageData:]_block_invoke
 WebPDemux
-Carthage/Checkouts/libwebp/src/webp/demux.h
+Library/Caches/org.carthage.CarthageKit/DerivedData/13.4.1_13F100/PINRemoteImage/a28f8df7fd7bb821216c2553b8f6f1fc961cb7f1/Build/Intermediates.noindex/ArchiveIntermediates/PINRemoteImage/BuildProductsPath/Release-iphoneos/libwebp.framework/Headers/demux.h
 -[PINRemoteImageProcessorTask cancelWithUUID:resume:]
 ___53-[PINRemoteImageProcessorTask cancelWithUUID:resume:]_block_invoke
 -[PINRemoteImageProcessorTask setDownloadTaskUUID:]
@@ -1240,7 +1241,6 @@ __OBJC_$_CATEGORY_UIImage_$_PINWebP
 /Users/croz/Documents/workspaces/christophe-texture/Carthage/Checkouts/PINRemoteImage/Source/Classes/Categories/PINImage+WebP.m
 Source/Classes/Categories/PINImage+WebP.m
 webp_cs_mode_from_cg_bitmap_info
-Carthage/Checkouts/libwebp/src/webp/decode.h
 WebPInitDecoderConfig
 -[UIImage(ScaledImage) pin_scaledImageForKey:]
 _PINScaledImageForKey
