@@ -1299,6 +1299,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1330,6 +1331,7 @@
 				MODULEMAP_FILE = Source/PINRemoteImage.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINRemoteImage;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
 			};
 			name = Debug;
 		};
@@ -1338,6 +1340,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1369,6 +1372,7 @@
 				MODULEMAP_FILE = Source/PINRemoteImage.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINRemoteImage;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
 			};
 			name = Release;
 		};
