@@ -1,9 +1,9 @@
 BCSymbolMap Version: 2.0
 Apple clang version 13.1.6 (clang-1316.0.21.2.5)
-/Applications/Xcode13.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
 iPhoneOS15.5.sdk
-/Users/olivier/Library/Caches/org.carthage.CarthageKit/DerivedData/13.4.1_13F100/PINOperation/1.2.1/Build/Intermediates.noindex/ArchiveIntermediates/PINOperation/IntermediateBuildFilesPath/PINOperation.build/Release-iphoneos/PINOperation.build/DerivedSources/PINOperation_vers.c
-/Users/olivier/Documents/tmp/texture-xcframework/Carthage/Checkouts/PINOperation
+/Users/croz/Library/Caches/org.carthage.CarthageKit/DerivedData/13.4.1_13F100/PINOperation/1.2.1/Build/Intermediates.noindex/ArchiveIntermediates/PINOperation/IntermediateBuildFilesPath/PINOperation.build/Release-iphoneos/PINOperation.build/DerivedSources/PINOperation_vers.c
+/Users/croz/Documents/workspaces/christophe-texture/Carthage/Checkouts/PINOperation
 -[PINOperationGroup initWithOperationQueue:]
 -[PINOperationGroup dealloc]
 +[PINOperationGroup asyncOperationGroupWithQueue:]
@@ -66,7 +66,7 @@ _OBJC_IVAR_$_PINOperationGroup._started
 _OBJC_IVAR_$_PINOperationGroup._canceled
 __OBJC_$_INSTANCE_VARIABLES_PINOperationGroup
 __OBJC_CLASS_RO_$_PINOperationGroup
-/Users/olivier/Documents/tmp/texture-xcframework/Carthage/Checkouts/PINOperation/Source/PINOperationGroup.m
+/Users/croz/Documents/workspaces/christophe-texture/Carthage/Checkouts/PINOperation/Source/PINOperationGroup.m
 Source/PINOperationGroup.m
 __destroy_helper_block_e4_20s
 __copy_helper_block_e4_20s
@@ -212,7 +212,7 @@ _OBJC_IVAR_$_PINOperationQueue._identifierToOperations
 __OBJC_$_INSTANCE_VARIABLES_PINOperationQueue
 __OBJC_$_PROP_LIST_PINOperationQueue
 __OBJC_CLASS_RO_$_PINOperationQueue
-/Users/olivier/Documents/tmp/texture-xcframework/Carthage/Checkouts/PINOperation/Source/PINOperationQueue.m
+/Users/croz/Documents/workspaces/christophe-texture/Carthage/Checkouts/PINOperation/Source/PINOperationQueue.m
 Source/PINOperationQueue.m
 __44-[PINOperationQueue scheduleNextOperations:]_block_invoke_2
 __44-[PINOperationQueue scheduleNextOperations:]_block_invoke.124
@@ -224,7 +224,7 @@ __48-[PINOperationQueue setMaxConcurrentOperations:]_block_invoke
 __copy_helper_block_e4_20b
 __52-[PINOperationQueue scheduleOperation:withPriority:]_block_invoke
 __41+[PINOperationQueue sharedOperationQueue]_block_invoke
-/Applications/Xcode13.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/once.h
 __ZL15__ARCLite__loadv
 __ZL30add_image_hook_autoreleasepoolPK11mach_headerl
 __ZL34__arclite_objc_autoreleasePoolPushv
