@@ -10,7 +10,11 @@
 
 #if PIN_WEBP
 
+#if SWIFT_PACKAGE
+@import libwebp;
+#else
 #import "webp/decode.h"
+#endif
 
 @implementation PINImage (PINWebP)
 

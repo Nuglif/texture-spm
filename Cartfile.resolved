@@ -1,5 +1,5 @@
-github "Nuglif/PINRemoteImage" "9e56679bd2a179adc7479e220c9dc48a05604bed"
-github "Nuglif/Texture" "16aca2caa9283e425e4525075f65f93e774e6f1a"
+github "Nuglif/PINRemoteImage" "a28f8df7fd7bb821216c2553b8f6f1fc961cb7f1"
+github "Nuglif/Texture" "7ebeb6cf6d8452ae8482e45427260efa415348af"
 github "SDWebImage/libwebp-Xcode" "1.2.3"
 github "pinterest/PINCache" "3.0.3"
 github "pinterest/PINOperation" "1.2.1"
