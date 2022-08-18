@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/PINCache.framework/PINCache</key>
 		<data>
-		l9WouaFa32Q774aUYZth+2Oo5Q0=
+		bZj/R2iBUr0wbu2z61phzJAAbLk=
 		</data>
 		<key>Frameworks/PINCache.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/PINOperation.framework/PINOperation</key>
 		<data>
-		ujwQcq3+HUVM85eq3TrWLwpQJpE=
+		R3Ao3S9wWxDHgXso39EL5gvvtnw=
 		</data>
 		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/libwebp.framework/libwebp</key>
 		<data>
-		sQiV7uQjE/jfbQqt9ogKTDZ7mtU=
+		btQ7OhmZJJ1VVfvAYNJ4nUqefaQ=
 		</data>
 		<key>Headers/NSData+ImageDetectors.h</key>
 		<data>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l9WouaFa32Q774aUYZth+2Oo5Q0=
+			bZj/R2iBUr0wbu2z61phzJAAbLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DrwIuwl6hF/Nf0b8szCiuHptt66rEe82ClWJnsQ8CSA=
+			yZl199OqHgL8ka/3XtUYOpYWtYoMKC9uCmr9RI3LIZ0=
 			</data>
 		</dict>
 		<key>Frameworks/PINCache.framework/_CodeSignature/CodeResources</key>
@@ -183,11 +183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ujwQcq3+HUVM85eq3TrWLwpQJpE=
+			R3Ao3S9wWxDHgXso39EL5gvvtnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LyegV8cc/SHLSybWHeH9+Si2hAfjBjmtx9OhbNFP2Ss=
+			It1dWpOCASJyYJVX9g4hnuYT3JRwpTrZC2EDCLT2dZ8=
 			</data>
 		</dict>
 		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sQiV7uQjE/jfbQqt9ogKTDZ7mtU=
+			btQ7OhmZJJ1VVfvAYNJ4nUqefaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			AHFNckKtPdL3cGK0YMCX+1DUfI914o2t3o62DV9eXnU=
+			b/hH/7vIvVOB3o8SCim42a1aYp6C5bKjT9IxkTgMd+w=
 			</data>
 		</dict>
 		<key>Headers/NSData+ImageDetectors.h</key>

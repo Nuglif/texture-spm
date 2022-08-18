@@ -1302,7 +1302,10 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/webp",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PIN_WEBP=1",
+				);
 				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/libwebp/src/webp/**";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1340,7 +1343,10 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/PINCache/Carthage/Build/tvOS",
 					"$(PROJECT_DIR)/webp",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PIN_WEBP=1",
+				);
 				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp-Xcode/libwebp/src/webp/**";
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
