@@ -97,11 +97,8 @@
 		939546C02220AF84006031BB /* PINRemoteImageManagerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 939546BE2220AF84006031BB /* PINRemoteImageManagerConfiguration.h */; };
 		939546C12220AF84006031BB /* PINRemoteImageManagerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 939546BF2220AF84006031BB /* PINRemoteImageManagerConfiguration.m */; };
 		94B96FB328AD6B2E0071CF7A /* libwebp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B96FAC28AD6A530071CF7A /* libwebp.xcframework */; };
-		94B96FB428AD6B2E0071CF7A /* libwebp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94B96FAC28AD6A530071CF7A /* libwebp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94B96FB628AD6B2F0071CF7A /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B96FAA28AD6A520071CF7A /* PINCache.xcframework */; };
-		94B96FB728AD6B300071CF7A /* PINCache.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94B96FAA28AD6A520071CF7A /* PINCache.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94B96FB828AD6B310071CF7A /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B96FAB28AD6A530071CF7A /* PINOperation.xcframework */; };
-		94B96FB928AD6B310071CF7A /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94B96FAB28AD6A530071CF7A /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DD47F9D1C699F4B00F12CA0 /* PINButton+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47F991C699F4B00F12CA0 /* PINButton+PINRemoteImage.m */; };
 		9DD47F9F1C699F4B00F12CA0 /* PINImageView+PINRemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD47F9B1C699F4B00F12CA0 /* PINImageView+PINRemoteImage.m */; };
 		9DD47FA41C699FDC00F12CA0 /* PINImage+DecodedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD47FA01C699FDC00F12CA0 /* PINImage+DecodedImage.h */; };
@@ -196,19 +193,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94B96FB528AD6B2E0071CF7A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				94B96FB728AD6B300071CF7A /* PINCache.xcframework in Embed Frameworks */,
-				94B96FB428AD6B2E0071CF7A /* libwebp.xcframework in Embed Frameworks */,
-				94B96FB928AD6B310071CF7A /* PINOperation.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -725,7 +709,6 @@
 				F1B918CC1BCF239200710963 /* Sources */,
 				F1B918CD1BCF239200710963 /* Frameworks */,
 				F1B918CE1BCF239200710963 /* Headers */,
-				94B96FB528AD6B2E0071CF7A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1190,7 +1173,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = Carthage/Build/iOS;
+				FRAMEWORK_SEARCH_PATHS = Carthage/Build/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1205,7 +1188,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp/**";
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1253,7 +1236,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = Carthage/Build/iOS;
+				FRAMEWORK_SEARCH_PATHS = Carthage/Build/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -1263,7 +1246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "Carthage/Checkouts/libwebp/**";
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = "";
