@@ -103,7 +103,6 @@ static inline BOOL advancePositionWithBytes(NSUInteger *position, Byte *bytes, N
     return GCECount > 1;
 }
 
-#if PIN_WEBP
 - (BOOL)pin_isWebP
 {
     const NSInteger length = 12;
@@ -128,7 +127,6 @@ static inline BOOL advancePositionWithBytes(NSUInteger *position, Byte *bytes, N
     return NO;
 }
 
-#endif
 #if PIN_APNG
 - (BOOL)pin_isAPNG
 {

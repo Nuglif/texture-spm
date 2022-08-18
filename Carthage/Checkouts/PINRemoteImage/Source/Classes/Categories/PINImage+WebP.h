@@ -8,8 +8,6 @@
 
 #import "PINRemoteImageMacros.h"
 
-#if PIN_WEBP
-
 #if PIN_TARGET_IOS
 #import <UIKit/UIKit.h>
 #elif PIN_TARGET_MAC
@@ -21,5 +19,3 @@
 + (PINImage *)pin_imageWithWebPData:(NSData *)webPData;
 
 @end
-
-#endif

@@ -10,9 +10,7 @@
 
 #import <ImageIO/ImageIO.h>
 
-#ifdef PIN_WEBP
 #import "PINImage+WebP.h"
-#endif
 
 #import "NSData+ImageDetectors.h"
 
@@ -150,11 +148,9 @@ NSData * __nullable PINImagePNGRepresentation(PINImage * __nonnull image) {
         CFRelease(imageSourceRef);
     }
     
-#if PIN_WEBP
     if (!decodedImage && [data pin_isWebP]) {
         return [PINImage pin_imageWithWebPData:data];
     }
-#endif
 
     return decodedImage;
 }

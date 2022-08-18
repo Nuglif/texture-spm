@@ -10,9 +10,7 @@
 
 #import "PINRemoteLock.h"
 #import "PINGIFAnimatedImage.h"
-#if PIN_WEBP
 #import "PINWebPAnimatedImage.h"
-#endif
 #if PIN_APNG
 #import "PINAPNGAnimatedImage.h"
 #endif
@@ -70,11 +68,11 @@ static const CFTimeInterval kSecondsBetweenMemoryWarnings = 15;
     if ([animatedImageData pin_isAnimatedGIF]) {
         return [self initWithAnimatedImage:[[PINGIFAnimatedImage alloc] initWithAnimatedImageData:animatedImageData]];
     }
-#if PIN_WEBP
+
     if ([animatedImageData pin_isAnimatedWebP]) {
         return [self initWithAnimatedImage:[[PINWebPAnimatedImage alloc] initWithAnimatedImageData:animatedImageData]];
     }
-#endif
+
 #if PIN_APNG
     if ([animatedImageData pin_isAPNG]) {
         return [self initWithAnimatedImage:[[PINAPNGAnimatedImage alloc] initWithAnimatedImageData:animatedImageData]];
