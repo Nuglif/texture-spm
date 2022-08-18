@@ -1,17 +1,17 @@
 {
-  "commitish" : "a28f8df7fd7bb821216c2553b8f6f1fc961cb7f1",
+  "commitish" : "2be121a990f92b41ed11492a4e7d87bdb87ea341",
   "iOS" : [
     {
-      "hash" : "1da260acae601b70346155c939b0b0afe19515f8d3fd45733cd070035f15eb8c",
+      "hash" : "5da916a0d21803b391512ea0c04c3efc6cc861f7229394c7895573bc9610a705",
       "name" : "PINRemoteImage",
       "container" : "PINRemoteImage.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "hash" : "869056155e310ff18966aecd229bbb9b9f9dd810c1ed7d216b19406e14cb1cd1",
+      "hash" : "831efa1c2209616aab661b45051444a1dbd208636683521dcbe3e5bc799ed625",
       "name" : "PINRemoteImage",
       "container" : "PINRemoteImage.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64"
     }
   ]
 }
