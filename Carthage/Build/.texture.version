@@ -1,17 +1,17 @@
 {
-  "commitish" : "7ebeb6cf6d8452ae8482e45427260efa415348af",
+  "commitish" : "624748204fec8a7fea5df0b90dc48a9c2332f290",
   "iOS" : [
     {
-      "hash" : "54a127b2f3e113b4427430f66fc9b4a2093ca267c0a8218ef0576faf49c10a81",
+      "hash" : "dd3c885610df9033a4d265a6190d3473d4c7671205068be7845c87e58e78a6da",
       "name" : "AsyncDisplayKit",
       "container" : "AsyncDisplayKit.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "hash" : "5372c94ce742ac80a645b69ca4198fa5d5656591c61bd9c0325c64dc962b460c",
+      "hash" : "10bea851923ee44725bef79dc08f362e5dbf856b5172f8418c3fd6e799dd836e",
       "name" : "AsyncDisplayKit",
       "container" : "AsyncDisplayKit.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }
