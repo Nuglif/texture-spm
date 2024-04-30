@@ -2,7 +2,7 @@
 title: "ASNodeController <b><i>(Beta)</i></b>"
 layout: docs
 permalink: /docs/containers-asnodecontroller.html
-prevPage: containers-asdkviewcontroller.html
+prevPage: containers-asviewcontroller.html
 nextPage: containers-astablenode.html
 ---
 

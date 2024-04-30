@@ -47,11 +47,10 @@
 }
 
 // NOTE: Despite the documentation, this is not always called if an exception is caught.
-// NOTE: Despite the documentation, this is not always called if an exception is caught.
-- (void)recordIssue:(XCTIssue *)issue
+- (void)recordFailureWithDescription:(NSString *)description inFile:(NSString *)filePath atLine:(NSUInteger)lineNumber expected:(BOOL)expected
 {
   _failed = YES;
-  [super recordIssue:issue];
+  [super recordFailureWithDescription:description inFile:filePath atLine:lineNumber expected:expected];
 }
 
 #pragma mark Test Methods

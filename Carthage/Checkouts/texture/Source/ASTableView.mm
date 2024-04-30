@@ -1306,11 +1306,6 @@ static NSString * const kCellReuseIdentifier = @"_ASTableViewCell";
   }
   _deceleratingVelocity = CGPointZero;
 
-  for (_ASTableViewCell *tableViewCell in _cellsForVisibilityUpdates) {
-    [[tableViewCell node] cellNodeVisibilityEvent:ASCellNodeVisibilityEventDidStopScrolling
-                                          inScrollView:scrollView
-                                         withCellFrame:tableViewCell.frame];
-  }
   if (_asyncDelegateFlags.scrollViewDidEndDecelerating) {
       [_asyncDelegate scrollViewDidEndDecelerating:scrollView];
   }

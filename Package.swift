@@ -30,4 +30,3 @@ let package = Package(
         .binaryTarget(name: "libwebp", path: "Carthage/Build/libwebp.xcframework")
     ]
 )
-

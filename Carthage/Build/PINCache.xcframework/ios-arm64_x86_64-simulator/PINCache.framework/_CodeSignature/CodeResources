@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/PINOperation.framework/Info.plist</key>
+		<data>
+		s2lgoLct1e/vzEybq+wL4yL1STA=
+		</data>
+		<key>Frameworks/PINOperation.framework/PINOperation</key>
+		<data>
+		NaP4kQ/xwkORuv6pEoIO/Va+vUo=
+		</data>
+		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		k0QgSoyytrgqdLczBSayJcMLGS0=
+		</data>
 		<key>Headers/PINCache.h</key>
 		<data>
 		DbQkCIZe3dbfdIgHUchkAnE4SIo=
@@ -22,7 +34,7 @@
 		</data>
 		<key>Headers/PINDiskCache.h</key>
 		<data>
-		/BXm0YID6c+rVU5HtmSiBgEwiPU=
+		Wjg9+MoDKAhJKJeul0sBuDVlqxk=
 		</data>
 		<key>Headers/PINMemoryCache.h</key>
 		<data>
@@ -30,15 +42,36 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YtFnylXi2F+pRyf8ZWL+/7+2z8g=
+		0f1Nom8zyTQxpPDXIHcuj97K2EE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ECQ2908O++9ukI5REqyaig/RXbg=
+		p+hkqBTNAVos0RTcGP9kqb6iOZE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/PINOperation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CXdVfP6n5x5ZpzNOgP61pzMendNhI47qN8DeZQt4Alw=
+			</data>
+		</dict>
+		<key>Frameworks/PINOperation.framework/PINOperation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cTbpKfPU2UNxCV6Yzcfz8xmka3J1j7F3ns2iIxcxYOM=
+			</data>
+		</dict>
+		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vohkJzKcz2ulZWQXWS6Ha10Pm9gc0f8Udq145K/Q3I0=
+			</data>
+		</dict>
 		<key>Headers/PINCache.h</key>
 		<dict>
 			<key>hash2</key>
@@ -71,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wM9dDXDyotUDD0qsdpE+S9LEIWdXho8EMRyZEnaYuF0=
+			WNflLWBDZ9EQq/RkaMjef5isGxleCbNIsl6t9QYolfo=
 			</data>
 		</dict>
 		<key>Headers/PINMemoryCache.h</key>
@@ -85,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WGPvvAGD9n5J+nayP8cD02lFRDaIxl8zR0VbkdaHsGg=
+			93xZvT+xV6xwJKZmkKBCmatUWnbuSu6pZNuKMfitpF4=
 			</data>
 		</dict>
 	</dict>
