@@ -18,20 +18,17 @@
 
 NSOrderedSet *ASSnapshotTestCaseDefaultSuffixes(void);
 
-// Tolerances of 0.02 are based on suggested numbers in this issue:
-// https://github.com/uber/ios-snapshot-test-case/issues/109
-
 #define ASSnapshotVerifyNode(node__, identifier__) \
 { \
   [ASSnapshotTestCase hackilySynchronouslyRecursivelyRenderNode:node__]; \
-  FBSnapshotVerifyLayerWithPixelOptions(node__.layer, identifier__, ASSnapshotTestCaseDefaultSuffixes(), 0.02, 0.02) \
+  FBSnapshotVerifyLayerWithOptions(node__.layer, identifier__, ASSnapshotTestCaseDefaultSuffixes(), 0) \
 }
 
 #define ASSnapshotVerifyLayer(layer__, identifier__) \
-  FBSnapshotVerifyLayerWithPixelOptions(layer__, identifier__, ASSnapshotTestCaseDefaultSuffixes(), 0.02, 0.02);
+  FBSnapshotVerifyLayerWithOptions(layer__, identifier__, ASSnapshotTestCaseDefaultSuffixes(), 0);
 
 #define ASSnapshotVerifyView(view__, identifier__) \
-  FBSnapshotVerifyLayerWithPixelOptions(view__, identifier__, ASSnapshotTestCaseDefaultSuffixes(), 0.02, 0.02);
+	FBSnapshotVerifyViewWithOptions(view__, identifier__, ASSnapshotTestCaseDefaultSuffixes(), 0);
 
 #define ASSnapshotVerifyViewWithTolerance(view__, identifier__, tolerance__) \
     FBSnapshotVerifyViewWithOptions(view__, identifier__, ASSnapshotTestCaseDefaultSuffixes(), tolerance__);

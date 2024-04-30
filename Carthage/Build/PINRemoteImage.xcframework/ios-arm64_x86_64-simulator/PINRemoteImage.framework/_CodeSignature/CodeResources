@@ -4,9 +4,61 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/PINCache.framework/Frameworks/PINOperation.framework/Info.plist</key>
+		<data>
+		s2lgoLct1e/vzEybq+wL4yL1STA=
+		</data>
+		<key>Frameworks/PINCache.framework/Frameworks/PINOperation.framework/PINOperation</key>
+		<data>
+		NaP4kQ/xwkORuv6pEoIO/Va+vUo=
+		</data>
+		<key>Frameworks/PINCache.framework/Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		k0QgSoyytrgqdLczBSayJcMLGS0=
+		</data>
+		<key>Frameworks/PINCache.framework/Info.plist</key>
+		<data>
+		0f1Nom8zyTQxpPDXIHcuj97K2EE=
+		</data>
+		<key>Frameworks/PINCache.framework/PINCache</key>
+		<data>
+		vZNoXIZHSxQzuhxsAbytILmp6MQ=
+		</data>
+		<key>Frameworks/PINCache.framework/_CodeSignature/CodeResources</key>
+		<data>
+		M9JmNpOybbPkg2dIiVyuBjs7yXQ=
+		</data>
+		<key>Frameworks/PINOperation.framework/Info.plist</key>
+		<data>
+		s2lgoLct1e/vzEybq+wL4yL1STA=
+		</data>
+		<key>Frameworks/PINOperation.framework/PINOperation</key>
+		<data>
+		NaP4kQ/xwkORuv6pEoIO/Va+vUo=
+		</data>
+		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		k0QgSoyytrgqdLczBSayJcMLGS0=
+		</data>
+		<key>Frameworks/libwebp.framework/Info.plist</key>
+		<data>
+		9zzdAB0QyKi8VtctPybEqB218wA=
+		</data>
+		<key>Frameworks/libwebp.framework/_CodeSignature/CodeResources</key>
+		<data>
+		eNRN1ULBmScJXkHy0fSZ2ddsVoo=
+		</data>
+		<key>Frameworks/libwebp.framework/libwebp</key>
+		<data>
+		P15rpcx/2v6NgYh1iyQ4wHgqs/s=
+		</data>
 		<key>Headers/NSData+ImageDetectors.h</key>
 		<data>
 		DYH1AHgCmYsS928uCnRjp2bjYEU=
+		</data>
+		<key>Headers/NSHTTPURLResponse+MaxAge.h</key>
+		<data>
+		at33NLX++HbGkQDJfhGAWNRglD0=
 		</data>
 		<key>Headers/PINAPNGAnimatedImage.h</key>
 		<data>
@@ -40,9 +92,25 @@
 		<data>
 		aLJSArZdxqScReq9jz4/cTng4/A=
 		</data>
+		<key>Headers/PINDisplayLink.h</key>
+		<data>
+		iEFVTj3Sq5xQ49DJnrhXY3bZxP4=
+		</data>
 		<key>Headers/PINGIFAnimatedImage.h</key>
 		<data>
 		+19t2SK7MkUJL27l8gz7XnF9aEc=
+		</data>
+		<key>Headers/PINImage+DecodedImage.h</key>
+		<data>
+		MVUpXJHVutZFapqXNxIIjzHZXms=
+		</data>
+		<key>Headers/PINImage+ScaledImage.h</key>
+		<data>
+		VzS2Yz9mTUfn5bNLJjO2GM3Q5v0=
+		</data>
+		<key>Headers/PINImage+WebP.h</key>
+		<data>
+		lyTjXPte+P2sbry9X1B8frDtWeE=
 		</data>
 		<key>Headers/PINImageView+PINRemoteImage.h</key>
 		<data>
@@ -54,31 +122,83 @@
 		</data>
 		<key>Headers/PINRemoteImage.h</key>
 		<data>
-		WzYgJdRVUf0piHNvunW3My2qcro=
+		2U56vsYR0wt0HDewuJWocL07sXM=
+		</data>
+		<key>Headers/PINRemoteImageBasicCache.h</key>
+		<data>
+		OyiLlqn3n1JslG0b0U6FUYaLDZY=
 		</data>
 		<key>Headers/PINRemoteImageCaching.h</key>
 		<data>
 		KuDcSMQosehti1WNvgV5WVBRhsU=
 		</data>
+		<key>Headers/PINRemoteImageCallbacks.h</key>
+		<data>
+		Sl5g+l2y1xBBR87KAzUSZc4INv0=
+		</data>
 		<key>Headers/PINRemoteImageCategoryManager.h</key>
 		<data>
 		Lj7IAdBwS0nuQdN7kBIU/QYFJGE=
+		</data>
+		<key>Headers/PINRemoteImageDownloadQueue.h</key>
+		<data>
+		+SymvBjeOOFNtTk9q9tUF9P+zhk=
+		</data>
+		<key>Headers/PINRemoteImageDownloadTask.h</key>
+		<data>
+		JG1PM2+wMv9exbpK25t2eNZCfnQ=
 		</data>
 		<key>Headers/PINRemoteImageMacros.h</key>
 		<data>
 		YjddS0soVi9yop+jBKBt3OkeP6k=
 		</data>
+		<key>Headers/PINRemoteImageManager+Private.h</key>
+		<data>
+		tmKBK8jCNi4jkIv5R/AmzAjfeWs=
+		</data>
 		<key>Headers/PINRemoteImageManager.h</key>
 		<data>
 		o320h3HxSoikbWce8KOFYcCSKPI=
+		</data>
+		<key>Headers/PINRemoteImageManagerConfiguration.h</key>
+		<data>
+		JwCXE8TOipS417/4STLuUqBRZwg=
 		</data>
 		<key>Headers/PINRemoteImageManagerResult.h</key>
 		<data>
 		GEAZ1TewroswgQzO42psm8dV7dI=
 		</data>
+		<key>Headers/PINRemoteImageMemoryContainer.h</key>
+		<data>
+		Lx1KFiqphIg7yLXufpjAhD58JNg=
+		</data>
+		<key>Headers/PINRemoteImageProcessorTask.h</key>
+		<data>
+		4vyHENso7gu3wLHURsRvKapz0p4=
+		</data>
+		<key>Headers/PINRemoteImageTask+Subclassing.h</key>
+		<data>
+		4yecqgQkhIsjK75CLvqQJnNIfdg=
+		</data>
+		<key>Headers/PINRemoteImageTask.h</key>
+		<data>
+		f/8W87vldw7Hi5NomLAACAGEntg=
+		</data>
+		<key>Headers/PINRemoteLock.h</key>
+		<data>
+		1/jvWA0zQhwty4qVr6eN/6uSDCA=
+		</data>
 		<key>Headers/PINRequestRetryStrategy.h</key>
 		<data>
 		H3LLBnB6PkiDso45iyVkQeiQlFo=
+		</data>
+		<key>Headers/PINResume.h</key>
+		<data>
+		gN7KpuAN6dL9PoxWbIEqFfsfaEo=
+		</data>
+		<key>Headers/PINSpeedRecorder.h</key>
+		<data>
+		lQSuAoWSyb0eFlq6yF/juUIZyoU=
 		</data>
 		<key>Headers/PINURLSessionManager.h</key>
 		<data>
@@ -90,20 +210,111 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jUV6kNd5wkG9F7SIl7T3uvVPhlw=
+		m4/S+V8+l4GaqvmUNIZWqOMuLzw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		8XbZJWvSM3AQ28XVzQi13G8gtp0=
+		sRVRZV1Huh4/Z8ot+WKQhWCrk2c=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/PINCache.framework/Frameworks/PINOperation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CXdVfP6n5x5ZpzNOgP61pzMendNhI47qN8DeZQt4Alw=
+			</data>
+		</dict>
+		<key>Frameworks/PINCache.framework/Frameworks/PINOperation.framework/PINOperation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cTbpKfPU2UNxCV6Yzcfz8xmka3J1j7F3ns2iIxcxYOM=
+			</data>
+		</dict>
+		<key>Frameworks/PINCache.framework/Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vohkJzKcz2ulZWQXWS6Ha10Pm9gc0f8Udq145K/Q3I0=
+			</data>
+		</dict>
+		<key>Frameworks/PINCache.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RF12fMB7hAxICTAM/Ur7T87cyO2xUv37Y6VEdzGbzbo=
+			</data>
+		</dict>
+		<key>Frameworks/PINCache.framework/PINCache</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3DdFiJj5hNzE3FfxluuFAmrSk1twB9e4Yijn6POtUVc=
+			</data>
+		</dict>
+		<key>Frameworks/PINCache.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qSIaWUfBJhA8+E1OYvoVpwRcQizRv+p4Oq7O9ZRFVt0=
+			</data>
+		</dict>
+		<key>Frameworks/PINOperation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CXdVfP6n5x5ZpzNOgP61pzMendNhI47qN8DeZQt4Alw=
+			</data>
+		</dict>
+		<key>Frameworks/PINOperation.framework/PINOperation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cTbpKfPU2UNxCV6Yzcfz8xmka3J1j7F3ns2iIxcxYOM=
+			</data>
+		</dict>
+		<key>Frameworks/PINOperation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vohkJzKcz2ulZWQXWS6Ha10Pm9gc0f8Udq145K/Q3I0=
+			</data>
+		</dict>
+		<key>Frameworks/libwebp.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h/KrcESCqWfXrcQh9EXuRG7eSoWTxyJSSom9YEb14kg=
+			</data>
+		</dict>
+		<key>Frameworks/libwebp.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dkS6BWfauSoXJwxwtCd4CFpr+OdLjhSRG0N6FXzn5eg=
+			</data>
+		</dict>
+		<key>Frameworks/libwebp.framework/libwebp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ip2MCwKF3pk/gnO26jbOvMNk/dtrZaRUGlNFRkoyejo=
+			</data>
+		</dict>
 		<key>Headers/NSData+ImageDetectors.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			meNBg2PWP6fwvrieC+E+7xxwCpdMirlJFJ5P8D6WU6E=
+			</data>
+		</dict>
+		<key>Headers/NSHTTPURLResponse+MaxAge.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IpYnD/SlzmUow004ATjYmTUbaeN+PPjvVY1gqL9qdMY=
 			</data>
 		</dict>
 		<key>Headers/PINAPNGAnimatedImage.h</key>
@@ -162,11 +373,39 @@
 			84gh+h5yrENnnz1N0EKC/F0xYvd2HRKCQewokVf8Xno=
 			</data>
 		</dict>
+		<key>Headers/PINDisplayLink.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qsmdiZV41uPgugoxzcU68OOrrC4Y82Jj3hyDwo50Ccw=
+			</data>
+		</dict>
 		<key>Headers/PINGIFAnimatedImage.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			yGFUZIkJZaBpouvjQY04yHfGFBXHx4O2drbKuCsddcY=
+			</data>
+		</dict>
+		<key>Headers/PINImage+DecodedImage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jSIR+30170JqVa9jIyOpYKOHQLbUKv0rJT21XWpp7bc=
+			</data>
+		</dict>
+		<key>Headers/PINImage+ScaledImage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BMdVZKgTBqHbQne7y8uksZjDvP50Hg+6pvlljfK9sbE=
+			</data>
+		</dict>
+		<key>Headers/PINImage+WebP.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bDb7OHNa+V62gneIjb3pRyJbuohXoRHTucxfOJqX1Fo=
 			</data>
 		</dict>
 		<key>Headers/PINImageView+PINRemoteImage.h</key>
@@ -187,7 +426,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vOvZyY0PxXjROF4CQqukef0ogZfRDgrD3fFyN3iPjls=
+			7UlDVynmCRjg2YhqHpcI7MwZlNZfSYc+8swxB8mGtig=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageBasicCache.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			owW2hY9Z9plJbJy1XUKwZsX+XJEEiRXTz+Jk3SDj5Mw=
 			</data>
 		</dict>
 		<key>Headers/PINRemoteImageCaching.h</key>
@@ -197,11 +443,32 @@
 			Y+ZvTZ7b0Y8Z0HrKfKYnjJ2+AlAqv7sL8SNlB3kk/t4=
 			</data>
 		</dict>
+		<key>Headers/PINRemoteImageCallbacks.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U3jrPEesfE3eCMSUiJSs19fSc5BohYClyAhNi8JNc9M=
+			</data>
+		</dict>
 		<key>Headers/PINRemoteImageCategoryManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			X0vXQfAR3++64dw3NzdAVUpMW9wH/CY5D2e2836nwl0=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageDownloadQueue.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bevTIMUGyRATWqWwhN6gyPPySUkskUELtAghhcokCpI=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageDownloadTask.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5aSXRCV5/d4FHhX25AbPs0qzAfIea27FUzUDbd2kdB8=
 			</data>
 		</dict>
 		<key>Headers/PINRemoteImageMacros.h</key>
@@ -211,11 +478,25 @@
 			J6rTZusHB28jrMuDvXvcS0Gyj8kwVQPWxnnoSgwBlYc=
 			</data>
 		</dict>
+		<key>Headers/PINRemoteImageManager+Private.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G65ZHI9T+GHtDsHPtUv/68UJGGVYP9zQ6gRtAnHvhMQ=
+			</data>
+		</dict>
 		<key>Headers/PINRemoteImageManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			kqdZbQ/fGg4kyHdMS5yLxLplFwitiuxSA2PJ6iCSOLw=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageManagerConfiguration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ir8p7wUWaOuGVqRrbt2a5xN9kvp/CnTYn8wy/oodz5E=
 			</data>
 		</dict>
 		<key>Headers/PINRemoteImageManagerResult.h</key>
@@ -225,11 +506,60 @@
 			fqeGGmf0SL8XnULDtLMOTvz8DN+hsns+kk3C3X6YPk4=
 			</data>
 		</dict>
+		<key>Headers/PINRemoteImageMemoryContainer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NAVo5fm9nboqr3JLl08rjLIKv1m+SVM/2tloX7I6LG8=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageProcessorTask.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CI31V8fa2QWGG8lMjhbxEctjaOlLb+eHnW+YpR/4pvI=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageTask+Subclassing.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SKz0NW6+Z/htp0ASDf3lyd7SopJxwASPccK5xBdyBZo=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteImageTask.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9q4+N5TDrqLDO6xMVEnuoD8wGlcoZyh4u/1c5ds/iQU=
+			</data>
+		</dict>
+		<key>Headers/PINRemoteLock.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KD+uJxK/+oYWHPY9g8rFE1qCN7KKKhznQqcrc0OSr/k=
+			</data>
+		</dict>
 		<key>Headers/PINRequestRetryStrategy.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			LTjlV78stzqFfNXNVUG6+cbRWtS8EeqpMRDhpBblVpo=
+			</data>
+		</dict>
+		<key>Headers/PINResume.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bF+xIOucOODO7Jcv7ZOvRMZPQ4Ve+XpTIx6qcuyfzbg=
+			</data>
+		</dict>
+		<key>Headers/PINSpeedRecorder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pvO56R292RWKgeH8rNWtgwOcNVI1Tb9r0crdU92u9HM=
 			</data>
 		</dict>
 		<key>Headers/PINURLSessionManager.h</key>
@@ -250,7 +580,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ek7uj5nLXAfr7IuOEKX3gxQerDaTRFLZhOYWrvcVqY4=
+			vAqmvvirquPRXmL+wDRiQC3WujH2Dgv7iNXhHpu6r6E=
 			</data>
 		</dict>
 	</dict>

@@ -1,29 +1,17 @@
 {
-  "commitish" : "2be121a990f92b41ed11492a4e7d87bdb87ea341",
+  "commitish" : "d924d4077cabd4def1aae9719c611580eee68edd",
   "iOS" : [
     {
-      "hash" : "43630943573e3b443b3a4181b1e55046048ab0d20c91ee0da3b41535829c79da",
-      "name" : "PINRemoteImage",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "e5994ff32398a8cdd2c505c9806f720cfca16557a86a7656f7ef949cc56d0ef3",
       "container" : "PINRemoteImage.xcframework",
-      "identifier" : "ios-arm64"
+      "name" : "PINRemoteImage"
     },
     {
-      "hash" : "8babad9e37c3eecc84b7b5ca51afef78e3c79d64ffcaec333d17b1ba6a6b7f22",
-      "name" : "PINRemoteImage",
       "container" : "PINRemoteImage.xcframework",
-      "identifier" : "ios-arm64_x86_64-simulator"
-    },
-    {
-      "hash" : "830735b3e0d29b80dd67f1af47dc53758beccec547137947331bb1e7af3fe4d8",
-      "name" : "libwebp",
-      "container" : "libwebp.xcframework",
+      "name" : "PINRemoteImage",
+      "hash" : "367b333f3967244e0eb336e8cb13eacfd09a24940f9687ba7f720dd80fd6e5c1",
       "identifier" : "ios-arm64"
-    },
-    {
-      "hash" : "e967fbbf382e37f7c7e964fc7f7141f6e8835e3882616ac948353fe8195c4ad5",
-      "name" : "libwebp",
-      "container" : "libwebp.xcframework",
-      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }
